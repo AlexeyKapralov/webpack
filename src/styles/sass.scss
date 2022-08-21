@@ -1,0 +1,14 @@
+@import "roboto.css";
+
+.box{
+	display: flex;
+	justify-content: space-between;
+	&__item{
+		width: 50vh;
+		height: 10vh;
+		color: rgb(89, 92, 99);
+		font-family: "Roboto", sans-serif;
+		font-size: 20px;
+		background-color: aquamarine;
+	}
+}
